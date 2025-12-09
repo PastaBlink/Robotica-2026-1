@@ -1,0 +1,1 @@
+/home/robousr/Robotica-2026-2/proyecto/xyz/build/example_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

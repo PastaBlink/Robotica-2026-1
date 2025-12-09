@@ -1,0 +1,1 @@
+/home/robousr/Robotica-2026-2/proyecto/xyz/build/example_interfaces/rosidl_typesupport_introspection_c/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_c.h

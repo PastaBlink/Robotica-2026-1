@@ -1,0 +1,1 @@
+/home/robousr/Robotica-2026-2/proyecto/xyz/build/example_interfaces/rosidl_generator_py/example_interfaces/msg/_example_msg_s.c

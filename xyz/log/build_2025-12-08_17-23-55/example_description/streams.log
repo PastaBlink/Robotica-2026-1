@@ -1,0 +1,27 @@
+[1.091s] Invoking command in '/home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description': PYTHONPATH=/home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description/build --no-deps symlink_data
+[1.353s] running develop
+[1.517s] running egg_info
+[1.517s] creating example_description.egg-info
+[1.519s] writing example_description.egg-info/PKG-INFO
+[1.519s] writing dependency_links to example_description.egg-info/dependency_links.txt
+[1.519s] writing entry points to example_description.egg-info/entry_points.txt
+[1.519s] writing requirements to example_description.egg-info/requires.txt
+[1.519s] writing top-level names to example_description.egg-info/top_level.txt
+[1.519s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[1.519s] reading manifest file 'example_description.egg-info/SOURCES.txt'
+[1.519s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[1.521s] running build_ext
+[1.521s] Creating /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/lib/python3.10/site-packages/example-description.egg-link (link to .)
+[1.521s] 
+[1.522s] Installed /home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description
+[1.522s] running symlink_data
+[1.522s] creating /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/ament_index
+[1.522s] creating /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/ament_index/resource_index
+[1.522s] creating /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/ament_index/resource_index/packages
+[1.522s] symbolically linking /home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description/resource/example_description -> /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/ament_index/resource_index/packages
+[1.522s] symbolically linking /home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description/package.xml -> /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/example_description
+[1.523s] creating /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/example_description/urdf
+[1.523s] symbolically linking /home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description/urdf/rrr_robot.urdf -> /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/example_description/urdf
+[1.523s] creating /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/example_description/rviz
+[1.523s] symbolically linking /home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description/rviz/rviz_config.rviz -> /home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/share/example_description/rviz
+[1.564s] Invoked command in '/home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description' returned '0': PYTHONPATH=/home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica-2026-2/proyecto/xyz/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Robotica-2026-2/proyecto/xyz/build/example_description/build --no-deps symlink_data

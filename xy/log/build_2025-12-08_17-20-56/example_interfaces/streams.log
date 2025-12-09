@@ -1,0 +1,202 @@
+[0.654s] Invoking command in '/home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/Robotica-2026-2/proyecto/xy/src/example_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces
+[1.027s] -- The C compiler identification is GNU 11.4.0
+[1.183s] -- The CXX compiler identification is GNU 11.4.0
+[1.207s] -- Detecting C compiler ABI info
+[1.312s] -- Detecting C compiler ABI info - done
+[1.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.319s] -- Detecting C compile features
+[1.320s] -- Detecting C compile features - done
+[1.327s] -- Detecting CXX compiler ABI info
+[1.456s] -- Detecting CXX compiler ABI info - done
+[1.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.462s] -- Detecting CXX compile features
+[1.464s] -- Detecting CXX compile features - done
+[1.481s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.999s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[2.138s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.201s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.223s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.368s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.827s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.687s] -- Found PythonInterp: /home/robousr/.pyenv/shims/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.690s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.780s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.780s] -- Using PYTHON_EXECUTABLE: /home/robousr/.pyenv/shims/python3
+[3.780s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.780s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.857s] -- Found PythonExtra: .so  
+[3.950s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.994s] -- Added test 'lint_cmake' to check CMake code style
+[3.996s] -- Added test 'xmllint' to check XML markup files
+[4.001s] -- Configuring done
+[4.050s] -- Generating done
+[4.063s] -- Build files have been written to: /home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces
+[4.078s] Invoked command in '/home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/Robotica-2026-2/proyecto/xy/src/example_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces
+[4.081s] Invoking command in '/home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces -- -j4 -l4
+[4.128s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.141s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.152s] [  6%] Built target ament_cmake_python_symlink_example_interfaces
+[4.421s] [  6%] Built target example_interfaces__cpp
+[4.433s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.434s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.443s] [ 16%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_interfaces/msg/detail/example_msg__functions.c.o[0m
+[4.443s] running egg_info
+[4.444s] creating example_interfaces.egg-info
+[4.445s] writing example_interfaces.egg-info/PKG-INFO
+[4.445s] writing dependency_links to example_interfaces.egg-info/dependency_links.txt
+[4.445s] writing top-level names to example_interfaces.egg-info/top_level.txt
+[4.445s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[4.448s] reading manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[4.448s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[4.491s] [ 16%] Built target ament_cmake_python_build_example_interfaces_egg
+[4.507s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.571s] [ 22%] [32m[1mLinking C shared library libexample_interfaces__rosidl_generator_c.so[0m
+[4.622s] [ 22%] Built target example_interfaces__rosidl_generator_c
+[4.635s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.732s] [ 32%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_interfaces/msg/detail/example_msg__type_support.cpp.o[0m
+[4.732s] [ 32%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_interfaces/msg/detail/dds_fastrtps/example_msg__type_support.cpp.o[0m
+[4.788s] [ 35%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_interfaces/msg/example_msg__type_support.cpp.o[0m
+[4.929s] [ 38%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_interfaces/msg/detail/example_msg__type_support.c.o[0m
+[4.999s] [ 41%] [32m[1mLinking C shared library libexample_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.035s] [ 41%] Built target example_interfaces__rosidl_typesupport_introspection_c
+[5.051s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.385s] [ 48%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_interfaces/msg/example_msg__type_support.cpp.o[0m
+[5.424s] [ 51%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_c.so[0m
+[5.428s] [ 54%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_cpp.so[0m
+[5.483s] [ 54%] Built target example_interfaces__rosidl_typesupport_c
+[5.483s] [ 54%] Built target example_interfaces__rosidl_typesupport_cpp
+[5.497s] [ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.628s] [ 61%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.643s] [ 64%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.711s] [ 64%] Built target example_interfaces__rosidl_typesupport_introspection_cpp
+[5.744s] [ 64%] Built target example_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.765s] [ 67%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_interfaces/msg/detail/example_msg__type_support_c.cpp.o[0m
+[6.044s] [ 70%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.125s] [ 70%] Built target example_interfaces__rosidl_typesupport_fastrtps_c
+[6.148s] [ 70%] Built target example_interfaces
+[6.174s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.453s] [ 74%] Built target example_interfaces__py
+[6.483s] [ 77%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_interfaces/msg/_example_msg_s.c.o[0m
+[6.645s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/libexample_interfaces__rosidl_generator_py.so[0m
+[6.699s] [ 80%] Built target example_interfaces__rosidl_generator_py
+[6.726s] [ 90%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.726s] [ 90%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.726s] [ 90%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.821s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.821s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.828s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.863s] [100%] Built target example_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.863s] [100%] Built target example_interfaces__rosidl_typesupport_c__pyext
+[6.871s] [100%] Built target example_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.888s] Invoked command in '/home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces -- -j4 -l4
+[6.902s] Invoking command in '/home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces
+[6.910s] -- Install configuration: ""
+[6.911s] -- Execute custom install script
+[6.911s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_interfaces
+[6.922s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__functions.h
+[6.931s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__struct.h
+[6.940s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__type_support.h
+[6.949s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/example_msg.h
+[6.958s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.968s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/environment/library_path.sh
+[6.980s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/environment/library_path.dsv
+[6.992s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_c.h
+[7.002s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.012s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_c.h
+[7.023s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.033s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__builder.hpp
+[7.043s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__struct.hpp
+[7.051s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__traits.hpp
+[7.062s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__type_support.hpp
+[7.075s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/example_msg.hpp
+[7.087s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.099s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.109s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.117s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.126s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/environment/pythonpath.sh
+[7.136s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/environment/pythonpath.dsv
+[7.145s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.154s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.162s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.173s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.186s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py
+[7.197s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c
+[7.208s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.218s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.227s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.235s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.246s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.255s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/libexample_interfaces__rosidl_generator_py.so
+[7.268s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/__init__.py
+[7.300s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg.py
+[7.313s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg_s.c
+[7.329s] -- Up-to-date symlink: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.329s] -- Up-to-date symlink: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.330s] -- Up-to-date symlink: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.330s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/msg/ExampleMsg.idl
+[7.341s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/msg/ExampleMsg.msg
+[7.351s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/ament_index/resource_index/package_run_dependencies/example_interfaces
+[7.361s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/ament_index/resource_index/parent_prefix_path/example_interfaces
+[7.372s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.sh
+[7.383s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.dsv
+[7.393s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/environment/path.sh
+[7.402s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/environment/path.dsv
+[7.413s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/local_setup.bash
+[7.423s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/local_setup.sh
+[7.433s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/local_setup.zsh
+[7.443s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/local_setup.dsv
+[7.453s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/package.dsv
+[7.463s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/ament_index/resource_index/packages/example_interfaces
+[7.478s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.489s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.500s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.512s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.522s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.531s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.540s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.550s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig.cmake
+[7.559s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig-version.cmake
+[7.569s] -- Symlinking: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/package.xml
+[7.580s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so
+[7.580s] -- Set runtime path of "/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so" to ""
+[7.580s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.581s] -- Set runtime path of "/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.581s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so
+[7.581s] -- Set runtime path of "/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.581s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so
+[7.583s] -- Set runtime path of "/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so" to ""
+[7.583s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.584s] -- Set runtime path of "/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.584s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.584s] -- Set runtime path of "/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.584s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so
+[7.585s] -- Set runtime path of "/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.689s] Listing '/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces'...
+[7.689s] Compiling '/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py'...
+[7.689s] Listing '/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg'...
+[7.689s] Compiling '/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/__init__.py'...
+[7.689s] Compiling '/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg.py'...
+[7.693s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so
+[7.694s] -- Set runtime path of "/home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so" to ""
+[7.694s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport.cmake
+[7.694s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.694s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.694s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.695s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.695s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.695s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport.cmake
+[7.695s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.696s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cppExport.cmake
+[7.696s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.696s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.696s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.696s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.697s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport.cmake
+[7.697s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.697s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport.cmake
+[7.697s] -- Installing: /home/robousr/Robotica-2026-2/proyecto/xy/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.702s] Invoked command in '/home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/Robotica-2026-2/proyecto/xy/build/example_interfaces

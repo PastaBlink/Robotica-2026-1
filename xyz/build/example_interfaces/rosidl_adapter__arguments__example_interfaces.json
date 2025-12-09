@@ -1,0 +1,6 @@
+{
+  "package_name": "example_interfaces",
+  "non_idl_tuples": [
+    "/home/robousr/Robotica-2026-2/proyecto/xyz/src/example_interfaces:msg/ExampleMsg.msg"
+  ]
+}
